@@ -1,0 +1,13 @@
+type UserId = principal;
+type Post = 
+ record {
+   author: UserId;
+   body: text;
+   id: nat;
+   timestamp: nat;
+   title: text;
+ };
+service : {
+  getPosts: () -> (vec Post) query;
+  submitPost: (text, text) -> (bool);
+}

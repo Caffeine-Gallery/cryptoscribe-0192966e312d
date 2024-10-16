@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#postForm {
+  margin-top: 20px;
+}
+
+#postTitle {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#posts {
+  margin-top: 40px;
+}
+
+.post {
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.post h2 {
+  margin-bottom: 10px;
+}
+
+.author {
+  color: #555;
+  font-size: 14px;
+}
+
+.body {
+  margin-top: 10px;
+}
